@@ -27,7 +27,7 @@ func initDB() {
 	port := getEnv("DB_PORT", "")
 
 	conSt := fmt.Sprintf("host=%s port=%s user%s password=%s dbname=%s sslmode=disable" , host, port , user, password, name)
-	fmt.Println(conSt)
+	// fmt.Println(conSt)
 	db, err = sql.Open("postgres" , conSt)
 	if err != nil {
 		log.Fatal("failed to open database")
