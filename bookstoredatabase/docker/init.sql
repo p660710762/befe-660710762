@@ -34,4 +34,3 @@ INSERT INTO books (id, title, author, isbn, year, price) VALUES
     (2, 'Practical DevOps and Cloud Engineering', 'Nuttachot Promrit', '978-0987654321', 2024, 500.00),
     (3, 'Mastering Golang for E-commerce Back End Development', 'Nuttachot Promrit', '978-1111222233', 2023, 450.00);
 
---
