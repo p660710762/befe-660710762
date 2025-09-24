@@ -113,7 +113,7 @@ func createBook(c *gin.Context) {
         return
     }
 
-    // ใช้ RETURNING เพื่อดึงค่าที่ database generate (id, timestamps)
+    
     var id int
     var createdAt, updatedAt time.Time
 
